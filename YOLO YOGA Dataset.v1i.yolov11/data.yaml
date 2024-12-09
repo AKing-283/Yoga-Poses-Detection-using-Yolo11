@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 5
+names: ['yoga-pose bridge', 'yoga-pose downward', 'yoga-pose plank', 'yoga-pose shoulderstand', 'yoga-pose tree']
+
+roboflow:
+  workspace: object-detection-dt-wzpc6
+  project: yolo-yoga-dataset
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/object-detection-dt-wzpc6/yolo-yoga-dataset/dataset/1
