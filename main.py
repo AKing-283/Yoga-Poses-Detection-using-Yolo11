@@ -4,11 +4,10 @@ import math
 import os
 from ultralytics import YOLO
 
-# Path to your model (update with the correct model path)
-model_path = "/Users/pushpakreddy/Downloads/train27/weights/best.pt"  # Replace with the actual path to your YOLO model
+
+model_path = "/Users/pushpakreddy/Downloads/train27/weights/best.pt"  
 model = YOLO(model_path)
 
-# List of yoga poses you want to detect (16 classes)
 classnames = [
     'chair_pose', 'dolphin_plank_pose', 'downward-facing_dog_pose', 'fish_pose', 'goddess_pose',
     'locust_pose', 'lord_of_the_dance_pose', 'low_lunge_pose', 'seated_forward_bend_pose', 'side_plank_pose',
