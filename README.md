@@ -17,4 +17,4 @@ This project uses a combination of cutting-edge technologies to ensure fast and 
 
 
 # Disclaimer #
-* This dataset is of limited yoga poses so it might provide inaccurate output in video feed 
+* The dataset used in this project is of limited yoga poses so it might provide inaccurate output.
